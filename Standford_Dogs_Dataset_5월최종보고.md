@@ -10,8 +10,14 @@ Stanford Dogs 데이터셋에 대한 10에폭 제한 최종보고 결과입니�
 
 ## Stanford Dogs Dataset
 
-### 4 조 정소현, 이현덕, 이지권, 장락영, 장준혁, 정우성
+### 4 조 정소현, 이현덕, 이지권, 장락영, 장준혁, 정우성    
 
+# 사용한 hw/sw 사양 및 버전 정보         
+Google Colab을 사용해서 코드를 실행하였습니다.    
+- 플랫폼         
+![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/324ebc39-bf1b-4b2a-8710-f1091acdeecb) 
+- GPU 사양      
+![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/1b255454-1762-4981-b7dc-582f4b82a09e)
 
 # 1. 라이브러리 임포트
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/fe93d876-3c4f-44cd-bb78-8eb2a5912af5)    
