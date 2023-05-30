@@ -22,12 +22,12 @@ Stanford Dogs 데이터셋에 대한 10에폭 제한 최종보고 결과입니�
 # 3. 데이터 로드 및 전체 데이터셋에 대해 train : test 비율 랜덤 4:1로 사용
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/2bb92bf9-568e-4a0e-b565-25090a244dc7)    
 
-# 4. 신경망의 영상 입력 크기, batch size 설정 및 데이터 전처리**
+# 4. 신경망의 영상 입력 크기, batch size 설정 및 데이터 전처리
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/2290d2fa-4408-48f0-976c-b60005e9684a)    
 
   사전 훈련된 심층 신경망, NasNet-Large 컨벌루션 신경망을 사용할 것이므로 해당 신경망의 영상 입력 크기는 331 * 331이므로 img_size를 331 로 변경하였다. 모델의 가중치를 한 번 업데이트시킬때 사용되는 샘플들의 묶음, 배치 사이즈는 32 로 설정하였다. 또한 범주형 데이터 전처리를 하기 위하여 정수 인코딩 방법을 선택하였다. sklearn 라이브러리에서 LabelEncoder 클래스를 가져와 사용하였다.
 
-# 5. 사전 훈련된 모델 사용 및 모델 layer 설계**
+# 5. 사전 훈련된 모델 사용 및 모델 layer 설계
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/7fc5cb57-5293-404e-93ba-54c666258f1f)
     
   딥러닝 모델을 제대로 훈련시키려면 많은 수의 데이터가 필요하지만 충분히 큰 데이터셋을 얻는 것은 쉽지 않고 모델을 처음부터 학습하는 경우 매우 오랜 시간 학습을 해야 할 가능성이 높다. 이를 극복하기 위해 대규모 학습 데이터 기반으로 사전에 훈련된 모델을 사용할 것이다. 대부분 사전 훈련된 신경망은 ImageNet 데이터베이스 서브셋에서 훈련되었고 이러한 신경망은 1 백만 개가 넘는 영상에 대해 훈련되었으며 영상을 1,000가지 사물 범주로 분류할 수 있다.    
