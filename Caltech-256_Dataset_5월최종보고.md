@@ -40,7 +40,7 @@ data_format = ’channels_last’를 추가함.
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/9b1a141a-61e0-4797-a5dc-98cb67cf5149)        
 
 # 7. 모델 훈련 및 평가
-![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/993e5ba6-4b65-41d7-b1ac-54fad7963705)      
+![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/72dfd87d-aded-4196-aaf8-bc087d81ee52)           
 활성화 함수는 기본 베이스 모델을 사용하였고 옵티마이저는 Adam을 사용함       
 
 # 8. 실행 결과
