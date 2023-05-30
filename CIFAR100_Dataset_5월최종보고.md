@@ -7,18 +7,18 @@ CIFAR100 데이터셋에 대한 10에폭 제한 최종보고 결과입니다. �
 ![결과](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/bedb0a64-bda2-48c7-b677-66fcf423f30e)
 
 
-### Image Classification Challenge
+### Image Classification Challenge     
 
-## CIFAR100 Dataset
+## CIFAR100 Dataset    
 
-### 4 조 정소현, 이현덕, 이지권, 장락영, 장준혁, 정우성
+### 4 조 정소현, 이현덕, 이지권, 장락영, 장준혁, 정우성     
 
-# 사용한 hw/sw 사양 및 버전 정보
+# 사용한 hw/sw 사양 및 버전 정보     
 Google Colab을 사용해서 코드를 실행하였습니다.
 - 플랫폼     
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/7d0863f7-d355-4f58-9777-b3b6f6d1b94e)    
-- GPU 사양 : Python 3 Google Compute Engine 백엔드 (GPU)
-![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/24ab8313-f705-4a26-9a71-325134d1be26)
+- GPU 사양 : Python 3 Google Compute Engine 백엔드 (GPU)     
+![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/24ab8313-f705-4a26-9a71-325134d1be26)     
 
 # 1. 모듈 가져오기
 ![image](https://github.com/elmellamo/ML_Image_Classification_Team4/assets/90952132/66511fab-64e0-477e-a0b7-803871308768)    
